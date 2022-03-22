@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Modification KDG Scholaships</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <style>
+     label{display: inline-block; width:80px;}
+     input,select{width: 690px;}
+     </style>
+</head>
+<body>
+     <form>
+          <div style="text-align: center; background: slateblue; color: white; font-size: 30px;">
+               <h1 style="font-size: 60px;" class="display-1">AICTE Scholarships Edit portal</h1>
+          </div>
+          <div class="form-group">
+          <label>Nationality</label> <input id="Nationbox" type="text"><br><br>
+          <label>Name</label> <input id="Namebox" type="text"><br><br>
+          <label>NameCode</label> <input id="Natbox" type="text"><br><br>
+          <label>Type</label> <input id="Typebox" type="text"><br><br>
+          <label>Discription </label> <input id="Disbox" type="text"><br><br>
+          <label>Date Begin</label> <input id="Beginbox" type="text"><br><br>
+          <label>Date End</label> <input id="Endbox" type="text"><br><br>
+          <label>Rated For</label>
+          <select id="GenBox">
+               <option value="BOIIIIIII">GenderNeutral</option>
+               <option value="GRILLLLLL">OnlyGirls</option>    
+          </select>
+          </div>
+     </form>     
+          <hr>
+          <button id="Insbtn">INSERT</button>
+          <button id="Delbtn">DELETE</button>
+          <button id="Update">UPDATE</button>
+<!--------------------IMPORT + CONFIGURATION PTA NHI KYA KUCH PALE NHI PARRA---------->
+          <script type="module">
+               // Import the functions you need from the SDKs you need
+     import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.9/firebase-app.js";
+     // TODO: Add SDKs for Firebase products that you want to use
+     // https://firebase.google.com/docs/web/setup#available-libraries
+
+     // Your web app's Firebase configuration
+     const firebaseConfig = {
+     apiKey: "AIzaSyASUFfrhjmVWLYZWglNIYUEhkhHnRnKScI",
+     authDomain: "scholarships-kdg69.firebaseapp.com",
+     databaseURL: "https://scholarships-kdg69-default-rtdb.asia-southeast1.firebasedatabase.app",
+     projectId: "scholarships-kdg69",
+     storageBucket: "scholarships-kdg69.appspot.com",
+     messagingSenderId: "774254766040",
+     appId: "1:774254766040:web:5d1c67e810ca77c61f74ad"
+     };
+
+     // Initialize Firebase
+     const app = initializeApp(firebaseConfig);
+     console.log("firebase has connected")
+                    import {getDatabase, ref, set, child, update, remove}
+                    from "https://www.gstatic.com/firebasejs/9.6.9/firebase-database.js";
+
+                    const db = getDatabase();
+
+     //----------------references idonnowhatitmeans-----------------//
+
+                    var nationality = document.getElementById("Nationbox");
+                    var namebox = document.getElementById("Namebox");
+                    var natbox = document.getElementById("Natbox");
+                    var typebox = document.getElementById("Typebox");
+                    var disbox = document.getElementById("Disbox");
+                    var datebbox = document.getElementById("Beginbox");
+                    var dateebox = document.getElementById("Endbox");
+                    var genbox = document.getElementById("GenBox");
+
+
+                    var insBtn = document.getElementById("Insbtn");
+                    var delBtn = document.getElementById("Delbtn");    
+                    var updBtn = document.getElementById("Update");
+     // ------------insert data fnc--------------------------------//
+                    function InsertData(){
+                         set(ref(db, "TheScholarships/"+ natbox.value),{
+                              NationOfSch: nationality.value,
+                              NameofSch: namebox.value,
+                              CodeOfSch: natbox.value,
+                              TypeofSch: typebox.value,
+                              DiscOfSch: disbox.value,
+                              DateofBeginOfSch: datebbox.value,
+                              DateofEndOfSch: dateebox.value,
+                              GenOfSch: genbox.value    
+                         })
+                         .then(()=>{
+                              alert("Data Stored succesfully");
+                         })
+                         .catch((error)=>{
+                              alert("Unsuccessfull, error"+error);
+                         });
+                    }
+
+     //------------update fnc-------------------------//
+                    
+                    function Updatedata(){
+                         update(ref(db, "TheScholarships/"+ natbox.value),{
+                              NationOfSch: nationality.value,
+                              NameofSch: namebox.value,
+                              TypeofSch: typebox.value,
+                              DiscOfSch: disbox.value,
+                              DateofBeginOfSch: datebbox.value,
+                              DateofEndOfSch: dateebox.value,
+                              GenOfSch: genbox.value   
+                         })
+                         .then(()=>{
+                              alert("Data Updated Successfully");
+                         })
+                         .catch((error)=>{
+                              alert("Unsuccsefull, error"+error);
+                         });
+                    }
+
+     //-----------------delete data fucntion-------------------//
+
+                    function DeleteData(){
+                         remove(ref(db, "TheScholarships/"+ natbox.value))
+                         .then(()=>{
+                              alert("Data Removed succesfully");
+                         })
+                         .catch((error)=>{
+                              alert("Unsuccessfull, error"+error);
+                         });   
+                    }
+
+     //--------------Assigning task to buttuns ----------//
+
+                    insBtn.addEventListener('click',InsertData);               
+                    updBtn.addEventListener('click',Updatedata);
+               delBtn.addEventListener('click',DeleteData);
+             </script>
+
+
+</body>
+</html>
