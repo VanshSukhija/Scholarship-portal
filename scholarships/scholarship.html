@@ -13,12 +13,14 @@
      <div style="text-align: center; background: #1abc9c; color: white; font-size: 30px;">
           <h1 style="font-size: 80px;" class="display-1">Scholarships</h1>
           <p class="lead">Both national and international scholarship of various types</p>
-          <p class="lead">By-Kasukabe Defence Group  <a href="edit.html" style="float: right; color: blue;">AIPTC Login</a></p>
+          <p class="lead">By-Kasukabe Defence Group  <a href="login.html" target="_blank"  style="float: right; color: blue;">AIPTC Login</a></p>
           
      </div>
-     <br><br>
-     <div class="table-responsive">
-          <table class=" table table-striped" id="myInput">
+     <br>
+     <div>
+          <input type="text" name="" id="myInput" placeholder="names..." onkeyup="searchFun()">
+          <br><br>
+          <table class=" table table-striped" id="myTable">
                <thead>
                     <th>Sno</th>
                     <th>Nationality</th>
@@ -123,24 +125,27 @@
 
           GetAllDataRealtime()
 
-          function myFunction() {
-          // Declare variables
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById('myInput');
-          filter = input.value.toUpperCase();
-          ul = document.getElementById("myUL");
-          li = ul.getElementsByTagName('li');
+          const searchFun = () =>{
+               let filter = document.getElementById('myInput').value.toUpperCase();
 
-          // Loop through all list items, and hide those who don't match the search query
-          for (i = 0; i < li.length; i++) {
-          a = li[i].getElementsByTagName("a")[0];
-          txtValue = a.textContent || a.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-               li[i].style.display = "";
-          } else {
-               li[i].style.display = "none";
-          }
-          }
+               let myTable = document.getElementById('myTable');
+
+               let tr = myTable.getElementByTagName('tr');
+
+               for(var i = 0; i<tr.length; i++){
+                    let td = tr[i].getElementByTagName('td')[3];
+
+                    if(td){
+                         let textvlaue = td.textContent || td.innerHTML;
+
+                         if(textvlaue.toUpperCase().indexOf(filter) > -1){
+                              tr[i].style.display = "";
+
+                         }else{
+                              tr[i].style.display = "none";
+                         }
+                    }
+               }
           }
 
      </script>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=L, initial-scale=1.0">
+     <title>Login AICTE</title>
+          <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <div style="text-align: center; background: slateblue; color: white; font-size: 18px;">
+          <h1 style="font-size: 60px;" class="display-1">AICTE Login</h1>
+     </div>
+     <center>
+         <form id="form_id" method="post" name="myform"> 
+
+          <label>Username: </label><input id="username" type="text"><br><br>
+          <label>Password: </label><input id="password" type="text" type="hidden"><br><br>
+         </form> 
+          <button id="Login" onclick="validate()">LOGIN</button>
+          <button id="Go Back">GO BACK</button>
+
+     </center>
+
+     <script>
+          var attempt = 3;
+          function validate(){
+               var username = document.getElementById("username").value;
+               var password = document.getElementById("password").value;
+               if ( username == "kdg@aicte.com" && password == "kdg123"){
+               alert ("Login successfully");
+               window.location = "edit.html"; // Redirecting to other page.
+               return false;
+               }
+               else{
+                    alert("WRONG PASSWORD OR USERNAME");
+               }
+          }
+     </script>
+</body>
+</html>
