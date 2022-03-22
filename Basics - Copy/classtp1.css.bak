@@ -1,0 +1,31 @@
+#dd{
+	background-color:cyan;
+	
+	width:400px
+}
+#df{
+	
+	background-color:pink;
+	
+	width:400px
+	
+}
+#dg{
+
+	background-color:red;
+	
+	width:400px
+	
+}
+#dh{
+	
+	background-color:grey;
+	
+	width:400px
+	
+}
+#ds{
+	display:flex;
+	flex-direction:row;
+	align-items:stretch
+}

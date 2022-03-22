@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<link rel="stylesheet" href="practice1.css"
+</Head>
+<Body style="background-color:purple">
+<p class="pp">TRIPLO NIGHTSTAYS<p>
+<br>
+<br>
+<form>
+<div><center>
+	<input type="text" placeholder="Search Your Destination(e.g.Manali)" class="in">
+</center></div>
+</form>
+<br>
+<br>
+<br>
+<br>
+<center><h2>Some Popular Destinations</h2></center>
+<br>
+<br>
+<div class="dv">
+	<div class="dv1">
+		<h1>Food</h1>
+	</div>
+	<div class="dv2">
+		<h1>Hotel</h1>
+	</div>
+	<div class="dv3">
+		<h1>Train</h1>
+	</div>
+	<div class="dv4">
+		<h1>Bus</h1>
+	</div>
+	</div>
+	
+</div>
+</Body>
+</html>

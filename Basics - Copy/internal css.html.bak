@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Internal CSS</title>
+<link rel="icon" href="C:\Users\PRABAL SONI\OneDrive\Pictures\flag.jfif"
+<style>
+body{
+background-color:red;
+}
+#dv_1{
+background-color:green;
+color:white;
+hover{color:red}
+}
+</style>
+</head>
+<Body>
+<form>
+<div id="dv_1">
+Hello Internal CSS
+</div>
+</form>
+</Body>
+</html>

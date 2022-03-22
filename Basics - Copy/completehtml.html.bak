@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>HTML</title>
+</head>
+<body>
+<h1>Web Devolopment </h1>
+<p>Web Devolopment includes html, css, javascript.
+<br>
+html &nbsp is hyper text markup language </p>
+<h2>Lists</h2>
+<ul>
+<h3>Movies</h3>
+<li>Holiday</li>
+<li>Housefull</li>
+<li>Kedarnath</li>
+<li>Golmaal</li>
+</ul>
+<ol>
+<h3>Sweets</h3>
+<li>Rasgulla</li>
+<li>Gulabjamun</li>
+<li>Jalebi</li>
+<li>Chocolate </li>
+</ol>
+</body>
+</html>

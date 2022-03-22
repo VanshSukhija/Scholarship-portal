@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<link rel="stylesheet" href="ass2.css">
+</Head>
+<Body>
+<div class="dd">
+	<div>
+		<div class="d1" style=display:inline-block>
+		<h1></h1>
+		</div>
+		<div class="d2" style=display:inline-block>
+		<h1></h1>
+		</div>
+	</div>
+	<div>
+		<div class="d3" style=display:inline-block>
+		<h1></h1>
+		</div>
+		<div class="d4" style=display:inline-block>
+		<h1></h1>
+		</div>
+	</div>
+</div>
+</Body>
+</html>

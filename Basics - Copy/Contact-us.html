@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT US</title>
+    <link rel="stylesheet" href="contact-us.css">
+</head>
+<body>
+    <div class = "anime">
+       <h3>Available 24/7</h3>
+    </div>
+    <div class = "contact">
+    <h1>CONTACT US</h1>
+    <form>
+        <label>NAME :</label>
+        <span style = "margin-left: 50px;"><input type="text"></span><br><br><br>
+        <label>CONTACT NUMBER :</label>
+        <span style = "margin-left: 50px;"><input type="text"></span><br><br>
+        <label>EMAIL ID :</label>
+        <span style = "margin-left: 50px;"><input type="text"></span><br><br>
+        <button id="submit">SUBMIT</button>
+        
+        
+    </form>
+    </div>
+    <script>
+        var i=document.getElementById("submit")
+
+        function fn(){
+            alert("We will contact you soon!!!")
+            console.log("click")
+        }
+
+        i.addEventListener("click",fn)
+    </script>
+</body>
+</html>

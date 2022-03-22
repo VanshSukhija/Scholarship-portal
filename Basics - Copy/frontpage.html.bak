@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<link rel="stylesheet" href="frontpage.css"
+<link rel="icon" href="C:\Users\PRABAL SONI\OneDrive\Pictures\logo.jfif">
+</Head>
+<Body style="background-image: url(main.jpeg);background-size:cover">
+
+<header>
+
+<span id="logo">
+<img src="C:\Users\PRABAL SONI\OneDrive\Pictures\bmw.png" height=50px width=50px>
+
+<form>
+<button class="bt"><a href="frontpage.html" style="color:white">Home</a></button>
+<button class="bt"><a href="" style="color:white">Contact Us</button></a>
+<button class="bt"><a href="ABOUT US.html" style="color:white">About Us</a></button>
+<button class="bt"><a href="LOGIN PAGE.html" style="color:white">Login/SignUp</a></button>
+</form>
+</span>
+
+<big><h1>TRIPLO</h1></big>
+<form>
+<button class="bl"><a href="train.html" target="_blank" style="color:red;text-decoration:none">Train</button></a>
+<button class="bb"><a href="bus1.html" style="color:red;text-decoration:none">Bus</button></a>
+<button class="bh"><a href="taxi2.html" style="color:red;text-decoration:none">Taxi</button></a>
+<button class="bf"><a href="flight1.html" style="color:red;text-decoration:none">Flight</button></a>
+<button class="bu"><a href="FOOD-MENU.html" style="color:red;text-decoration:none">Food </button></a>
+<button class="bn"><a href="hotel1.html" target="_blank" style="color:red;text-decoration:none">Hotel</button></a>
+<center><button class="bm"><a href="medicines.html" style="color:red;text-decoration:none">Medicines</button></a></center>
+</form>
+</header>
+</Body>
+</html>

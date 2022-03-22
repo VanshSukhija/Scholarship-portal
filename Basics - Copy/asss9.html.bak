@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<style>
+td,th,table{
+border:solid;
+border-color:black
+}
+</style>
+</Head>
+<Body>
+
+<table border="solid" style="border-collapse:collapse">
+	<div style="background-color:grey">
+	<tr >
+		<th rowspan="3"><center>day</center></th>
+		<th colspan="4"><center>seminar</center></th>
+	</tr>
+	<tr>
+		<th colspan="2"><center>schedule</center></th>
+		<th rowspan="2"><center>topic</center></th>
+	</tr>
+	<tr>
+		<th><center>begin</center></th>
+		<th><center>end</center></th>
+	</tr>
+	</div>
+	
+	<tr>
+		<td rowspan="2">Monday</td>
+		<td rowspan="2">8:00a.m.</td>
+		<td rowspan="2">5:00p.m.</td>
+		<td>Introduction To AngularJS</td>
+	</tr>
+	<tr>
+		<td>XML</td>
+	</tr>
+	
+	<tr>
+		<td rowspan="3">
+			<ul type="disc">
+				<li>Branch</li>
+					<br>
+					&emsp;a.CSE
+					<br>
+					&emsp;ii.ME
+					<br>
+					&emsp;f.INFORMATION TECHNOLOGY
+					<br>
+					&emsp;6.ECE
+				<li>COURSESS</li>
+					<ul type="circle">
+					<li>MANAGEMENT</li>
+					<li>DIPLOMA</li>
+					</ul>
+				<li>SCOPE</li>
+					<br>
+					&emsp;aa.CSE
+					<br>
+					&emsp;z.BCA
+					<br>
+					&emsp;y.PHD
+					<br>
+					&emsp;&emsp;<ul type="square"><li>CHITKARA</li></ul>
+					<br>
+					&nbsp;&emsp;10.CIVIL
+			</ul>
+		</td>
+		<td>8:00a.m.</td>
+		<td>11:00a.m.</td>
+		<td>XPath</td>
+	</tr>
+	<tr>
+		<td >11:00a.m.</td>
+		<td >2:00p.m.</td>
+		<td rowspan="2">
+			<center><table border="solid" style="border-collapse:collapse">
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td><ul type="disc"><li></li></ul></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td><ul type="circle"><li></li></ul></td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td><ul type="disc"><li></li></ul></td>
+				</tr>
+			</center></table>
+		</td>
+	</tr>
+	<tr>
+		<td >2:00p.m.</td>
+		<td >5:00p.m.</td>
+	</tr>
+	
+	<tr>
+		<td>Wednesday</td>
+		<td>8:00a.m.</td>
+		<td>12:00p.m.</td>
+		<td>SQL</td>
+	
+	</tr>
+</table>
+</Body>
+</html>

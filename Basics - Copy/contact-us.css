@@ -1,0 +1,51 @@
+.contact h1{
+    margin-top:-40px;
+    text-align:center;
+    font-size: 100px;
+    color:white;
+}
+.contact form{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+}
+.contact form input{
+    font-size:30px;
+}
+.contact form button{
+    width: 100%;
+    padding:20px 20px;
+    font-size:50px;
+}
+.contact form button:hover{
+    color:white;
+    background-color:black;
+    text-decoration:double;
+}
+body{
+    background-color: black;
+}
+.anime h3{
+    border:2px solid white;
+    height:100px;
+    width:100px;
+    color:white;
+    text-align:center;
+    margin-top: 10px;
+}
+.anime{
+height:100px;
+width:100px;
+animation-name:anime1;
+animation-duration:10s;
+background-color:black;
+animation-iteration-count: infinite;
+}
+
+@keyframes anime1{
+    0% {background-color:cyan;}
+    25% {background-color:blue;}
+    50% {background-color:yellowgreen;}
+    75% {background-color:orange;}
+    100% {background-color:pink;}
+    }

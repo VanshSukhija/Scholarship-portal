@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <Title>Triplo</Title>
+        <link rel="stylesheet" href="frontpage.css">
+        <link rel="icon" href="triplo-logo.jpeg">
+        <script src="https://kit.fontawesome.com/2a1b2d0360.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </Head>
+    <Body style="background-color:black"> 
+        <div class="maindiv">
+
+            <Header>
+                <!--Navigation-Bar-->
+                <div class="nav-bar">
+                    <!--logo-->
+                    <div class="logo">
+                        <img src="triplo-logo.jpeg"  >
+                    </div>
+                    <!--Home-->
+                    <div class="nav-element">
+                        <i class="fas fa-home" style="color:white"></i>
+                        <a href="frontpage.html" style="color:white;">Home</a>
+                    </div>
+                    <!--Contact Us-->
+                    <div class="nav-element">    
+                        <a href="Contact-us.html" style="color:white">Contact Us</button></a>
+                    </div>
+                    <!--Website Name-->
+                    <div class="website-name">
+                        <h1>
+                            Triplo
+                        </h1>
+                        <p>Comfy Travels</p>
+                    </div>
+                    <!--About Us-->
+                    <div class="nav-element">    
+                        <a href="ABOUT US.html" style="color:white">About Us</a>
+                    </div>
+                    <!--Search Box-->
+                    <div class="searchbox">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <!--Profile-->
+                    <div class="signup">    
+                        <a href="LOGIN PAGE.html" style="color:white"><img src="login-signup.jpg" height="70vh" width="70vw" style="border-radius: 50%;"></a></button>
+                    </div>
+                </div>
+            </Header>
+        
+
+            <!--main-->
+            <!--Offers-->
+            <div class="offers">
+                <a href="flight2.html" target="_blank" style="color:white;text-decoration:none">
+                    <!--offer1-->
+                <div class="offer" id="offer1">
+                    <img src="flightbook.jpg">
+                    <script>
+                        var i=document.getElementById("offer1")
+
+                        function fun(){
+                            alert("Use code FREEDOM to get cashback upto Rs.500 on domestic flight bookings")
+                            console.log("click");
+                        }
+                        i.addEventListener("click",fun);
+                    </script>
+                </div></a>
+
+                <!--offer2-->
+                <a href="hotel1.html" target="_blank" style="color:white;text-decoration:none">
+                <div class="offer" id="offer2">
+                    <img src="hotel-booking.jpg">
+                    <script>
+                        var i=document.getElementById("offer2")
+
+                        function fun(){
+                            alert("Use code FREEDOM to get cashback upto 50% off on hotel bookings")
+                            console.log("click");
+                        }
+                        i.addEventListener("click",fun);
+                    </script>
+                </div></a>
+
+                <!--offer3-->
+                <a href="taxi2.html" target="_blank" style="color:white;text-decoration:none">
+                <div class="offer" id="offer3">
+                    <img src="carpool.jpg">
+                    <script>
+                        var i=document.getElementById("offer3")
+
+                        function fun(){
+                            alert("Use code POOL to get cashback upto Rs.100 on carpool")
+                            console.log("click");
+                        }
+                        i.addEventListener("click",fun);
+
+                    </script>
+                </div></a>
+
+                <!--offer4-->
+                <a href="FOOD-MENU.html" target="_blank" style="color:white;text-decoration:none">
+                <div class="offer" id="offer4">
+                    <img src="foodbook.jpg">
+                    <script>
+                        var i=document.getElementById("offer4")
+
+                        function fun(){
+                            alert("Use code FOODY to get 50% cashback upto Rs.100 on first order")
+                            console.log("click");
+                        }
+                        i.addEventListener("click",fun);
+
+                    </script>
+                </div></a>
+                
+
+            </div>
+
+            
+            <!--Travel-->
+            <div class="travel">
+                <div style="margin-top:12%">
+                    <h2 style="margin-bottom: 5%;text-align: center;text-transform: uppercase;text-decoration: underline;"><i class="far fa-star"></i> Want To Plan A Trip </h1>
+                </div>
+
+                <!--Transportation-->
+                <h2><i class="fas fa-long-arrow-alt-right"></i>&nbsp;Select The Way You Want To Travel </h2>
+                <div class="transport">
+                    <!--Train-->
+                    <a href="train.html" target="_blank" style="color:white;text-decoration:none">
+                    <div class="train">
+                        <h3>Train</h3>
+                    </div></a>
+
+                    <!--Bus-->
+                    <a href="bus1.html" target="_blank" style="color:white;text-decoration:none">
+                    <div class="bus">
+                        <h3>Bus</h3>
+                    </div></a>
+
+                    <!--Flight-->
+                    <a href="flight2.html" target="_blank" style="color:white;text-decoration:none">
+                    <div class="flight">
+                        <h3>Flight</h3>
+                    </div></a>
+
+                    <!--Cab-->
+                    <a href="taxi2.html" target="_blank" style="color:white;text-decoration:none">
+                    <div class="cab">
+                        <h3>Cab</h3>
+                    </div></a>
+                </div>
+
+
+                <!--Hotel-->
+                <h2 style="margin-top: 10%;"> <i class="fas fa-long-arrow-alt-right"></i>&nbsp;Now,Look For A Hotel For Your Stay</h2>
+                <div class="hotel">
+                    <a href="hotel1.html" target="_blank" style="color:red;text-decoration:none">
+                    <div class="hotel1" onclick="fun()">
+                        <h4>Triplo Hotel World</h4>
+                    </div></a>
+                </div>
+
+
+                <!--Food-->
+                <h2 style="margin-top: 10%;"> <i class="fas fa-long-arrow-alt-right"></i>&nbsp;Feeling Hungry</h2>
+                    <h2 style="margin-left:5%">Want To Order Food In Train/Bus</h2>
+                    <h2 style="margin-left:5%">So,Here We Have Great Offers For You </h2>
+                <div class="food">
+                    <div class="food1">
+                        <a href="FOOD-MENU.html" target="_blank" style="color:red;text-decoration:none">
+                        <h4>Triplo Food Heaven</h4>
+                    </div></a>
+                </div>
+
+
+                <!--MEdicines-->
+                <h2 style="margin-top: 10%;"><i class="fas fa-long-arrow-alt-right"></i>&nbsp; Require Urgent Medicines </h2>
+                    <h2 style="margin-left:5%">So, Here We Go</h2>
+                <div class="medicines">
+                    <a href="HEALTH.html" target="_blank" style="color:white;text-decoration:none">
+                    <div class="medicines1">
+                        <h4>Medicines</h4>
+                    </div>
+                </div></a>
+
+                
+            </div>    
+        </div>
+        <div class="feedback">
+            <h1 style="font-size: 40px;">Feedback</h1>
+            <input type="text" placeholder="Please Give Your Feedback!!!" style="height:30vh;width:68vw">
+            <br>
+            <br>
+            <button id="submit" onclick="fn()">Submit</button>
+        </div>
+        <script>
+            function fn(){
+                alert("Thank You For Your Valueable Feedback!!!")
+            }
+        </script>
+        <script>
+            function fun(){
+                alert("Wear Mask, Follow Physical Distancing, Wash Your Hands Regularly!!!")
+            }
+        </script>
+    </Body>
+</html>

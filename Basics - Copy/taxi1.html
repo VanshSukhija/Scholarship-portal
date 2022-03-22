@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CAB</title>
+<style>
+	tr_1{background-color: red;}
+	body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: linear-gradient(305deg,red,green,yellow, blue,pink, orange);
+  color: white;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.anime{
+	border:2px solid black;
+	animation-name:cyd;
+animation-duration:10s;
+background-color:transparent;
+animation-iteration-count: infinite;
+}
+
+@keyframes cyd {
+	0% {background-color:cyan;}
+    25% {background-color:blue;}
+    50% {background-color:yellowgreen;}
+    75% {background-color:orange;}
+    85% {background-color:pink;}
+	95% {background-color: red;}
+	100%{ background-color: cyan;}
+}
+
+
+</style>
+</head>
+<body>
+	<div class = "anime">
+<i><b>	<big> <center><big><h1 style="color:black;">Choose Your Destination</h1></big></center></i></b></big>
+</div>
+<form>
+	<center>
+	
+<big><big><b><label style="color:black;">DEPARTURE FROM <img src="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-navigation-vector-icon-png-image_470702.jpg" height="20" width="20">:-</label></b>
+	
+	<input type="text" placeholder="Ex. Delhi" > </big> </big>
+
+<br>
+<br>
+<img src="https://cdn.iconscout.com/icon/free/png-256/up-down-arrow-1912188-1617657.png" height="50" width="50" style="margin-left: 500px;">
+<br>
+
+
+
+	<big><big><b><label style="margin-right:185px;color: black;">TO <img src="https://w7.pngwing.com/pngs/403/950/png-transparent-gps-logo-google-maps-google-map-maker-gps-navigation-systems-location-map-angle-heart-logo-thumbnail.png" height="20" width="20">:-</label><b>   
+	<input type="text" placeholder="Ex. Jaipur" >   </big> </big>
+	<br>
+	<big><hr></big>
+	<br>
+	<big><big><b><label style="margin-right:100px">DD/MM/YYYY <img src="https://media.istockphoto.com/vectors/calendar-icon-vector-sign-and-symbol-isolated-on-white-background-vector-id1001210284" height="20" width="20">:-</label></b>
+	<input type = "date" >
+	<br>
+	<br>
+	<hr>
+	<br>
+	<label style="margin-right:200px"> NO. OF PASSENGERS :-</label>      
+	<select required>
+	<option value="All Classes">1</option>
+    <option value="AC First Class">2</option>
+    <option value="AC 2 Tier">3</option>
+    <option value="First Class">4</option>
+    <option value="All Classes">5</option>
+    <option value="All Classes">6</option>
+    <option value="All Classes">7</option>
+
+    
+  </select>
+	
+<br>
+<br>
+
+	<hr>
+
+<br>
+<b><label style="margin-right: 75px;">PICK UP TIMINGS<img src="https://media.istockphoto.com/photos/airline-tickets-picture-id154086207?k=20&m=154086207&s=612x612&w=0&h=SnZkC88K8d1oe0TsvyS4WH5V4mfhoY3_3uYQ95W7iJM=" height="20" width="20">:-</label></b>
+	<input type="text"> 
+
+
+<br>
+<br>
+
+
+<button style="font-family: cursive; background-color: black; color: white; font-size: 15px;"><a href="payment_gateway.html" style="color:white;text-decoration: none;">Continue</button></a>
+
+
+
+
+
+
+	</center></bg>
+</body>
+</html>

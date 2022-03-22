@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<link rel="stylesheet" href="ass1.css">
+</Head>
+<Body style="background-color:pink">
+<div class="dd">
+	<div class="d1" style=display:inline-block>
+	<h1>Hello</h1>
+	</div>
+	<div class="d2" style=display:inline-block>
+	<h1>CSS</h1> 
+	</div>
+</div>
+<p>These are the two images</p>
+<h1>CSS Properties To Use</h1> 
+
+<div>
+	<table border="2" style="border-color:green;border-radius:15px;color:purple;padding-right:8px;border-inner-radius:15px" >
+		<tr>
+			<th>S.no.</th>
+			<th>Subjects</th>
+			<th>Credit</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>IoT</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Php</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Machine Learning</td>
+			<td>30</td>
+		</tr>
+	</table>
+</div>
+</Body>
+</html>

@@ -1,0 +1,10 @@
+.dv{
+	background-color:red;
+	height:20px;
+	width:100px;
+	border-style:dotted;
+	border-width:1px;
+	border-color:grey;
+	overflow-x:hidden;
+	overflow-y:scroll
+}

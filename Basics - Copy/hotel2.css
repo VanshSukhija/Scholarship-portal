@@ -1,0 +1,44 @@
+.p1{
+	font-size:50px;
+	text-decoration:underline;
+	
+}
+.dv{
+	background-color:cyan;
+	display:flex;
+	flex-direction:column;
+	height:auto;
+	width:1500px;
+	justify-content:space-around;
+	align-items:center;
+	
+	
+}
+.dv1{
+	background-color:red;
+	height:500px;
+	width:900px;
+	margin-bottom:20px;
+	text-align:center
+}
+.dv2{
+	background-color:yellow;
+	height:500px;
+	width:900px;
+	margin-bottom:20px;
+	text-align:center
+}
+.dv3{
+	background-color:pink;
+	height:500px;
+	width:900px;
+	margin-bottom:20px;
+	text-align:center
+}
+.dv4{
+	background-color:orange;
+	height:500px;
+	width:900px;
+	margin-bottom:20px;
+	text-align:center
+}

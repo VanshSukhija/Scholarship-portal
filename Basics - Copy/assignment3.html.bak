@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title>Assignment3</Title>
+<link rel="icon" href="C:\Users\PRABAL SONI\OneDrive\Pictures\menu.jfif">
+<style>
+.h1{
+background-color:orange;
+text-align:center
+}
+.menu1{
+font-style:italic;
+background-color:yellow;
+display:inline-block
+}
+.menu2{
+font-style:italic;
+background-color:cyan;
+display:inline-block
+}
+.menu3{
+font-style:italic;
+background-color:red;
+}
+.menu4{
+font-style:italic;
+background-color:pink;
+display:inline-block
+}
+.rr{
+font-size:30px;
+color:red;
+font-weight:600;
+text-align:center;
+line-height:30px;
+text-transform:uppercase;
+text-decoration:underline;
+
+}
+.r1{
+background-color:red
+margin-top:4px
+margin-bottom:2px
+}
+</style>
+</Head>
+<Body style=background-color:black>
+<div class="rr">
+Love to Eat
+</div>
+<div class="menu1" >
+<h1 class="h1">Menu1(Thai Food)</h1>
+<ol>
+<li>Guay Teow (Noodle Soup)</li>
+<li>Tom Yum Goong (Spicy Shrimp Soup)</li>
+<li>Laab (Spicy Salad)</li>
+</ol>
+
+<div class="r1" >
+ <p>I Love Thai Food<p>
+</div>
+</div>
+<div class="menu2" >
+<h1 class="h1">Menu2(Punjabi Food)</h1>
+<ol>
+<li>Butter Chicken</li>
+<li>Sarso Da Saag </li>
+<li>amritsari chhole & naan</li>
+</ol>
+</div>
+<div class="menu3" >
+<h1 class="h1">Menu3(Chinese Food)</h1>
+<ol>
+<li>Burger</li>
+<li>Momos</li>
+<li>Manchurian</li>
+</ol>
+</div>
+<div class="menu4" >
+<h1 class="h1">Menu4(South Indian Food)</h1>
+<ol>
+<li>Dosa</li>
+<li>Idli</li>
+<li>Vada</li>
+</ol>
+</div>
+</Body>
+</html>

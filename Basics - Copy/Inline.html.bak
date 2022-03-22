@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title>Inline CSS</Title>
+<ic_1 style=border:solidred;color:red;background-color:yellow>
+</Head>
+<Body>
+<div id=ic_1>
+Hello Inline CSS
+</div>
+</Body>
+</html>

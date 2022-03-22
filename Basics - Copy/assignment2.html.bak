@@ -1,0 +1,55 @@
+<html>
+<head>
+<body style=background="C:\Users\PRABAL SONI\OneDrive\Pictures\india.jfif">
+
+<form style=color:red>
+<pre>
+                <b>                               My Form     </b>
+				<label for="name">Name:</label >
+				<input type="text" id="name">
+				<br>
+				<br>
+				<label>Gender:</label>
+				<input type="radio" value="Male"name="gender" id="Male">
+				<label for="Male">Male:</label>
+				<input type="radio" value="Female"name="gender" id="Female">
+				<label for="Female">Female:</label>
+				<input type="radio" value="Others"name="gender" id="Others">
+				<label for="Others">Others:</label>
+				<br>
+				<br>
+				<label>Roll no:</label>
+				<input type="integer" required >
+				<br>
+				<br>
+				<label>Branch</label>
+				<input type="text" id="branch">
+				<br>
+				<br>
+				<label>Aadhar no:</label >
+				<input type="integer" required>
+				<br>
+				<br>
+				<label>Interests</label >
+				<input type="Checkbox" value="Basketball" id="Basketball">
+				<label>Basketball</label>
+				<input type="Checkbox" value="Football" id="Football">
+				<label>Football</label>
+				<input type="Checkbox" value="volleyball" id="Volleyball">
+				<label>Volleyball</label>
+				<input type="Checkbox" value="Badminton" id="Badminton">
+				<label>Badminton</label>
+				<br>
+				<br>
+				<input type="submit">
+				</pre>
+</form>
+
+
+</body>
+
+
+</head>
+
+
+</html>

@@ -1,0 +1,45 @@
+body{
+	margin:0px
+}
+
+/*Body Header*/
+#body-header{
+	height:65vh;
+	opacity:0.9;
+	background-image: url(blur.jpeg);
+	background-size:cover;
+	background-position:bottom;
+	background-attachment:fixed;
+	
+}
+
+
+/*Horizontal List*/
+.lii{
+	list-style:none;
+	padding-left:0px
+}
+.lii li{
+	display:inline-block;
+	margin:10px 50px 50px 0px;
+	
+}
+.lii li a{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:20px
+}
+.text-center{
+	text-align:center
+}
+.lii li a:hover{
+	text-decoration:underline
+	
+}
+
+/*Name*/
+.dv{
+	font-size:40px;
+	color:white
+}

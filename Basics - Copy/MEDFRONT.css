@@ -1,0 +1,79 @@
+.main{background-image:url("file:///C:/Users/Yash%20Gupta/Downloads/capsule.jpg");
+width:180px;
+height:30px;
+opacity:0.6;}
+
+.horizontal-list{ position:relative;
+display:flex;
+flex-direction:coloumn;
+flex-wrap:wrap;
+text-align:centre;
+top:120;
+
+}
+.ayurvedic {
+background-image:url("C:/Users/Yash%20Gupta/Downloads/Ayurveda.jpg");
+display:inline;
+position:relative;
+top:10;
+
+}
+.ayurvedic img{
+	border:3px solid red;
+	
+	right:20;
+
+}
+.BABY {
+background-image:url("file:///C:/Users/Yash%20Gupta/Downloads/Best-Baby-Skin-Care-Products-in-India.jpg");
+display:inline;
+position:relative;
+top:200;
+left:120;
+}
+.BABY img{
+	border:3px solid red;
+text-align:centre;
+}
+.oral {
+background-image:url("file:///C:/Users/Yash%20Gupta/Downloads/Best-Baby-Skin-Care-Products-in-India.jpg");
+display:inline;
+position:absolute;
+left:400px;
+}
+.oral img{
+	border:3px solid red;
+text-align:centre;}
+.pain{
+background-image:url"file:///C:/Users/Yash%20Gupta/Downloads/pain.png");
+display:inline;
+position:relative;
+top:200;
+left:400;
+}
+.pain img{
+	border:3px solid red;
+	text-align:centre;
+}
+
+.immune {
+background-image:url("file:///C:/Users/Yash%20Gupta/Downloads/cold.jfif"));
+display:inline;
+position:relative;
+left:300;
+
+}
+.immune img{
+	border:3px solid red;
+	text-align:centre;
+}
+.cart {
+background-image:url("file:///C:/Users/Yash%20Gupta/Downloads/cart.jpg");
+display:inline;
+position:relative;
+left:500;
+}
+.cart img{
+	border:3px solid red;
+	text-align:centre;
+}

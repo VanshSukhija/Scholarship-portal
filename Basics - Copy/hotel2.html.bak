@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<Head>
+<Title></Title>
+<link rel="stylesheet" href="hotel2.css"
+</Head>
+<Body style="background-color:cyan">
+<center><p class="p1">Avilable Hotels Nearby You<p></center>
+<div class="dv">
+	<div class="dv1">
+		<h1>Food</h1>
+	</div>
+	<div class="dv2">
+		<h1>Hotel</h1>
+	</div>
+	<div class="dv3">
+		<h1>Train</h1>
+	</div>
+	<div class="dv4">
+		<h1>Bus</h1>
+	</div>
+	</div>
+	
+</div>
+</Body>
+</html>

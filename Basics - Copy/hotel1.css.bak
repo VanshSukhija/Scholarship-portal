@@ -1,0 +1,87 @@
+.dv{
+
+	display:flex;
+	flex-direction:row;
+	height:500px;
+	width:1500px;
+	justify-content:space-around;
+	align-items:top
+	
+}
+.dv1{
+	background-color:red;
+	height:400px;
+	width:300px;
+	text-align:center;
+	color:black;
+	text-decoration:none
+	
+}
+.dv2{
+	background-color:yellow;
+	height:400px;
+	width:300px;
+	text-align:center;
+		color:black;
+	text-decoration:none
+}
+.dv3{
+	background-color:pink;
+	height:400px;
+	width:300px;
+	text-align:center;
+		color:black;
+	text-decoration:none
+}
+.dv4{
+	background-color:orange;
+	height:400px;
+	width:300px;
+	text-align:center;
+		color:black;
+	text-decoration:none
+}
+.dv5{
+	background-color:lightgreen;
+	height:400px;
+	width:300px;
+	text-align:center
+}
+.dv6{
+	background-color:cyan;
+	height:400px;
+	width:300px;
+	text-align:center
+}
+.pp{
+	text-align:center;
+	color:red;
+	text-shadow:20px 20px 20px black;
+	background-image:linear-gradient(blue,white,yellow);
+	font-size:70px;
+	font-family:cursive;
+	width:1490px;
+	margin-bottom:-16px;
+	border-style:double;
+	border-color:black;
+	border-width:5px;
+}
+.in{
+	border-color:black;
+	border-style:double;
+	height:35px;
+	width:1490px;
+	text-align:center
+}
+h2{
+	font-size:50px;
+	text-decoration:underline;
+	color:black;
+	font-family:forte
+}
+.header{
+	background-image:linear-gradient(silver,cyan,cyan,gold,cyan,silver,gold,cyan);
+	height:1000px;
+	width:1500px;
+	background-size:cover
+}

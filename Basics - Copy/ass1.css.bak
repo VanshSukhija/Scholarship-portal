@@ -1,0 +1,30 @@
+.d1{
+	background:red;
+	height:400px;
+	width:400px;
+	border-style:solid;
+	border-radius:50px;
+	border-width:4px;
+	margin-right:-50px;
+	border-bottom-color:blue;
+	border-top-color:red;
+	border-left-color:yellow;
+
+	
+}
+.d2{
+	background:yellow;
+	height:400px;
+	width:400px;
+    border-style:solid;
+	border-radius:50px;
+	border-width:4px;
+	border-bottom-color:blue;
+	border-top-color:red;
+	border-right-color:green;
+	border-left-color:yellow
+	
+}
+.dd{
+	text-align:center
+}

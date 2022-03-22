@@ -1,0 +1,310 @@
+/*main div*/
+.maindiv{
+	width: auto;
+	height: auto;
+	margin: 3% 3% 3% 3%;
+	border-style: solid;
+	border-width: 12px;
+	border-color:rgb(110, 64, 9);
+	border-radius: 10px;
+	background-image: linear-gradient(red,rgb(214, 194, 194),pink,cyan,cyan,pink,silver,red);
+}
+  
+
+/*Navigation Bar*/
+
+/*Animation change right to left*/
+@keyframes nav{
+	0% {
+		background-image:linear-gradient(to right,rgb(0, 255, 21),blue)
+	}
+	100%{
+		background-image:linear-gradient(to right,blue,rgb(217, 255, 0)) 
+	}
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	margin:3% 2.5% 3% 2.5%;
+	animation-name: nav;
+	animation-duration: 5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	height: 15vh;
+	width: 85.5vw;
+	border-radius: 30px;
+	border-top-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	overflow: scroll;
+}
+
+/*Responsiveness*/
+@media screen and (max-width:50%) {
+	.maindiv{
+		width:100%
+	}
+	.nav-bar{
+		width:100%
+	}
+}
+
+/*Logo*/
+.logo{
+	margin-top:auto;
+	margin-bottom: auto;
+	margin-left:8px
+}
+.logo img{
+	height: 10vh;
+	width: 5vw;
+	border-radius: 50%;
+	margin-left: 10%; 
+}
+.logo img:hover{
+	transform: rotate(180deg);
+}
+
+/*Navigation bar elements*/
+.nav-element{
+	margin-top:auto;
+	margin-bottom: auto;
+}
+
+/*Website-Name*/
+.website-name{
+	color:white
+}
+.website-name h1{
+	color:rgb(9, 8, 8);
+	font-family: algerian;
+}
+.website-name p{
+	margin-top:-25px;
+	font-family: cursive;
+	animation-name: color;
+	animation-iteration-count: infinite;
+	animation-duration: 20s;
+}
+
+
+/*Animation-Changing color*/
+@keyframes color{
+	0%{color:white}
+	20%{color:orange}
+	40%{color:yellow}
+	60%{color:purple}
+	80%{color:red}
+	100%{color:black}
+}
+/*//////////////////////////*/
+
+
+/*Profile*/
+.signup{
+	margin-top:auto;
+	margin-bottom: auto;
+	margin-right: 2%;
+}
+
+/*Searchbox*/
+.searchbox{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.searchbox input{
+	height: 4vh;
+	width: 15vw;
+	border-width: 5px;
+	border-radius:30px
+}
+
+
+
+/*main*/
+
+/*Offers*/
+.offers{
+	display: flex;
+	justify-content: space-around;
+    margin: 6% 0% 6% 0%;
+	height: 30%;
+	width: 100%;
+}
+.offer img{
+	height: 40vh;
+	width: 18vw;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width:5px
+}
+.offer img:hover{
+	height: 44vh;
+	width: 22vw;
+}
+
+/*Headings*/
+h2{
+	font-family: lucida calligraphy ;
+	animation-name: color;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	margin-left: 3%;
+}
+h3{
+	padding-top: 30%;
+	padding-left: 30%;
+	font-size: 42px;
+}
+h4{
+	padding-top: 18%;
+	padding-left: 10%;
+	font-size: 50px;
+	color:white;
+	font-family: cursive;
+}
+
+/*Travel*/
+.travel{
+	height: 30%;
+	width: 100%;
+}
+
+/*Transportation*/
+.transport{
+	display:flex;
+	justify-content: space-around;
+}
+.train{
+	background-image: url(trainback.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	height:40vh;
+	width:20vw;
+}
+.train:hover{
+	height: 44vh;
+	width: 24vw;
+}
+
+.bus{
+	background-image: url(busback.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	height:40vh;
+	width:20vw
+}
+.bus:hover{
+	height: 44vh;
+	width: 24vw;
+}
+.flight{
+	background-image: url(flightback.jpg);
+	background-position: center;
+	
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	height:40vh;
+	width:20vw
+}
+.flight:hover{
+	height: 44vh;
+	width: 24vw;
+}
+.cab{
+	background-image: url(cabback.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius:50%;
+	border-style: solid;
+	border-color: black;
+	height:40vh;
+	width:20vw
+}
+.cab:hover{
+	height: 44vh;
+	width: 24vw;
+}
+
+
+/*Hotel*/
+.hotel{
+	background-image: url(hot.jpeg);
+	background-position: center;
+	background-size: cover;
+	border-style: double;
+	border-color: rgb(0, 0, 0);
+	border-radius: 30px;
+	border-width: 20px;
+	height:65vh;
+	width:50vw;
+	margin: auto;
+	
+}
+.hotel:hover{
+	transform: translate(20%,10%);
+}
+
+
+/*Food*/
+.food{
+		background-image: url(foodback.jpg);
+		background-position: center;
+		background-size: cover;
+		border-style: double;
+		border-color: black;
+		border-radius: 30px;
+		border-width: 20px;
+		height:65vh;
+		width:50vw;
+		margin: auto;
+}
+.food:hover{
+	transform: translate(-20%,10%);
+}
+
+
+/*Medicines*/
+.medicines{
+	background-image: url(medicine.jpg);
+	background-position: center;
+	background-size: cover;
+	border-style: double;
+	border-color: rgb(0, 0, 0);
+	border-radius: 30px;
+	border-width: 20px;
+	height:65vh;
+	width:50vw;
+	margin: auto;
+	margin-bottom: 20%;
+}
+.medicines:hover{
+	transform: translate(20%,10%);
+}
+
+
+/*Feedback*/
+.feedback{
+	margin:5% 10% 10% 10%;
+	color: antiquewhite;
+	width:100%
+}
+.feedback button{
+    width: 70%;
+    padding:20px 20px;
+    font-size:30px;
+}
+.feedback button:hover{
+    color:white;
+    background-color:black;
+    text-decoration:double;
+}
+

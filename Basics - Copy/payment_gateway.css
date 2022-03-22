@@ -1,0 +1,38 @@
+h1{
+	color:purple;
+	text-decoration:underline;
+	text-align:center;
+
+  text-shadow: 10px 20px 10px black;
+	padding:30px 30px 30px 30px;
+	font-size:100px
+}
+.bt{
+	background-color:gold;
+	margin-top:100px;
+	margin-left:70px;
+	margin-right:70px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	font-weight:bold;
+	padding:30px 40px 30px 40px;
+	border-width:4px;
+	font-size:20px;
+	border-radius:15px
+	
+}
+.bl{
+	background-color:gold;
+	margin-top:100px;
+	margin-left:70px;
+	margin-right:70px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	font-weight:bold;
+	padding:30px 65px 30px 65px;
+	border-width:4px;
+	font-size:20px;
+	border-radius:15px
+}

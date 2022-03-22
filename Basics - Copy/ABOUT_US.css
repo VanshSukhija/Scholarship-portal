@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: bisque;
+    font-size: 100px
+}
+
+h2 {
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+}
+
+@keyframes color{
+    0%{color:white}
+    20%{color:yellow}
+    40%{color:lightgreen}
+    60%{color:red}
+    80%{color:cyan}
+    100%{color:pink}
+
+}
+.abt {
+    color: whitesmoke;
+    font-size: 30px;
+    border: 2px solid white;
+    width: 500px
+}
+
+body {
+    background-color: black;
+}
+
+pre {
+    display: inline-block;
+}
